@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pr:gipsy_danger",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:health": { "value": 1000, "max": 1000 },
+      "minecraft:collision_box": { "width": 3.0, "height": 9.0 },
+      "minecraft:movement": { "value": 0.3 },
+      "minecraft:scale": { "value": 4.5 },
+      
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "family_types": [ "player" ],
+        "positions": [ [0.0, 7.5, 0.0] ]
+      },
+      "minecraft:input_ground_controlled": {},
+
+      "minecraft:item_controllable": {
+        "control_items": [ "pr:drive_controls" ] 
+      },
+
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 1,
+        "entity_types": [
+          { "filters": { "test": "is_family", "subject": "other", "value": "kaiju" }, "max_dist": 64 }
+        ]
+      },
+      "minecraft:behavior.melee_attack": { "priority": 2 }
+    }
+  }
+}
