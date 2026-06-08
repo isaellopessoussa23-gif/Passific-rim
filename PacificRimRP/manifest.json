@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Texturas e Modelos do Gipsy Danger",
+    "name": "Pacific Rim Resource Pack",
+    "uuid": "db7b3f46-4e5a-4b2a-89cf-4a4b88d8b9bb",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "description": "Texturas do Pack",
+      "type": "resources",
+      "uuid": "e8a4d7c2-5b1f-4c3e-9a8d-7b6c5a4f3e2d",
+      "version": [1, 0, 0]
+    }
+  ]
+}
