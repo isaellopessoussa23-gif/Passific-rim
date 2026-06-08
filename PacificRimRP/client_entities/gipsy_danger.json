@@ -1,0 +1,12 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pr:gipsy_danger",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/gipsy_danger" },
+      "geometry": { "default": "geometry.gipsy_danger" },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}
