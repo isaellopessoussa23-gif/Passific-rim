@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Defenda a humanidade com Jaegers ou destrua-a com Kaijus!",
+    "name": "Pacific Rim Addon - Behavior",
+    "uuid": "4f183764-7bf5-4e7a-9a94-4d8349281223",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Logica do Addon",
+      "type": "data",
+      "uuid": "9a8b7c6d-5e4f-3a2b-1c0d-e9f8a7b6c5d4",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "8f7e6d5c-4b3a-2b1c-0d9e-8f7e6d5c4b3a",
+      "version": [1, 0, 0]
+    }
+  ]
+}
