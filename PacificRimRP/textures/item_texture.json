@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "Pacific Rim",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "drive_controls": {
+      "textures": "textures/items/drive_controls"
+    },
+    "chain_sword": {
+      "textures": "textures/items/chain_sword"
+    }
+  }
+}
